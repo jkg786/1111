@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pages"
+		},
+		{
+			"path": "../templates"
+		},
+		{
+			"path": "../tools"
+		},
+		{
+			"path": "../components"
+		},
+		{
+			"path": "../css"
+		},
+		{
+			"path": "../images"
+		}
+	]
+}
