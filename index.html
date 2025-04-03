@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolsnew - Free Online Tools Collection</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <span class="announcement-text">🚀 Your Trust Our Aim! 💖 | 🌟 100% Free Tools Collection 🛠️ | 🎉 Premium Quality Results 💎</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <div class="brand-container">
+                        <span class="brand-icon">🛠️</span>
+                        <span class="brand-text">Toolsnew</span>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">🏠 Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">📧 Contact</a>
+                        </li>
+                    </ul>
+                    <div class="trust-indicators">
+                        <span class="trust-item"><i class="fas fa-shield-alt"></i> 100% Secure</span>
+                        <span class="trust-item"><i class="fas fa-bolt"></i> Fast & Reliable</span>
+                        <span class="trust-item"><i class="fas fa-clock"></i> 24/7 Available</span>
+                    </div>
+                    <button class="theme-switcher" id="themeSwitcher">
+                        <i class="fas fa-palette"></i> Change Colors
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Trust Banner -->
+    <div class="trust-banner">
+        <div class="container">
+            <div class="trust-stats">
+                <div class="stat-item">
+                    <span class="stat-number">1M+</span>
+                    <span class="stat-label">Happy Users</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Free Tools</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Support</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="search-box">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input type="text" id="toolSearch" class="form-control" placeholder="🔍 Search for tools...">
+                        <button class="btn btn-primary search-button" type="button">
+                            <i class="fas fa-search"></i> Search
+                        </button>
+                    </div>
+                    <div id="searchResults" class="search-results mt-3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Categories -->
+        <section class="main-categories mt-5">
+            <h2 class="section-title text-center mb-4">🛠️ Tool Categories</h2>
+            <div class="row">
+                <!-- Image Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">🖼️</div>
+                                <h3 class="mb-0 mt-2">Image Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#imageTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="imageTools">
+                            <div class="card card-body">
+                                <div class="tool-list">
+                                    <a href="tools/image tools/all-in-one-conversions.html" class="tool-item">
+                                        <span>🔄 All in One Conversions</span>
+                                    </a>
+                                    <a href="tools/image tools/image-to-png.html" class="tool-item">
+                                        <span>🖼️ Image to PNG Converter</span>
+                                    </a>
+                                    <a href="tools/image tools/image-to-jpg.html" class="tool-item">
+                                        <span>📸 Image to JPG Converter</span>
+                                    </a>
+                                    <a href="tools/image tools/image-resizer.html" class="tool-item">
+                                        <span>📏 Image Resizer</span>
+                                    </a>
+                                    <a href="tools/image tools/image-compressor.html" class="tool-item">
+                                        <span>🗜️ Image Compressor</span>
+                                    </a>
+                                    <a href="tools/image tools/image-cropper.html" class="tool-item">
+                                        <span>✂️ Image Cropper</span>
+                                    </a>
+                                    <a href="tools/image tools/image-to-base64.html" class="tool-item">
+                                        <span>🔄 Convert Image to Base64</span>
+                                    </a>
+                                    <a href="tools/image tools/webp-to-png.html" class="tool-item">
+                                        <span>🔄 Convert WebP to PNG</span>
+                                    </a>
+                                    <a href="tools/image tools/gif-maker.html" class="tool-item">
+                                        <span>🎬 GIF Maker</span>
+                                    </a>
+                                    <a href="tools/image tools/qr-code-generator.html" class="tool-item">
+                                        <span>📱 QR Code Generator</span>
+                                    </a>
+                                    <a href="tools/image tools/screenshot-to-pdf.html" class="tool-item">
+                                        <span>📄 Screenshot to PDF Converter</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">🔍</div>
+                                <h3 class="mb-0 mt-2">SEO Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#seoTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="seoTools">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/seo tools/meta tag generator.html" class="tool-item">
+                                <span>🏷️ Meta Tag Generator</span>
+                            </a>
+                            <a href="tools/seo tools/keyword density checker.html" class="tool-item">
+                                <span>📊 Keyword Density Checker</span>
+                            </a>
+                            <a href="tools/seo tools/sitemap generator.html" class="tool-item">
+                                <span>🗺️ Sitemap Generator</span>
+                            </a>
+                            <a href="tools/seo tools/robots.txt generator.html" class="tool-item">
+                                <span>🤖 Robots.txt Generator</span>
+                            </a>
+                            <a href="tools/seo tools/google index checker.html" class="tool-item">
+                                <span>🔍 Google Index Checker</span>
+                            </a>
+                            <a href="tools/seo tools/domain authority checker.html" class="tool-item">
+                                <span>📈 Domain Authority Checker</span>
+                            </a>
+                            <a href="tools/seo tools/backlink checker.html" class="tool-item">
+                                <span>🔗 Backlink Checker</span>
+                            </a>
+                            <a href="tools/seo tools/page speed checker.html" class="tool-item">
+                                <span>⚡ Page Speed Checker</span>
+                            </a>
+                            <a href="tools/seo tools/xml sitemap validator.html" class="tool-item">
+                                <span>✅ XML Sitemap Validator</span>
+                            </a>
+                            <a href="tools/seo tools/mobile-friendly test.html" class="tool-item">
+                                <span>📱 Mobile-Friendly Test</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">📝</div>
+                                <h3 class="mb-0 mt-2">Text Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#textTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="textTools">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/text tools/word counter.html" class="tool-item">
+                                <span>📝 Word Counter</span>
+                            </a>
+                            <a href="tools/text tools/character counter.html" class="tool-item">
+                                <span>🔤 Character Counter</span>
+                            </a>
+                            <a href="tools/text tools/case converter.html" class="tool-item">
+                                <span>🔄 Case Converter</span>
+                            </a>
+                            <a href="tools/text tools/plagiarism checker.html" class="tool-item">
+                                <span>🔍 Plagiarism Checker</span>
+                            </a>
+                            <a href="tools/text tools/grammar checker.html" class="tool-item">
+                                <span>✍️ Grammar Checker</span>
+                            </a>
+                            <a href="tools/text tools/text-to-speech.html" class="tool-item">
+                                <span>🗣️ Text-to-Speech</span>
+                            </a>
+                            <a href="tools/text tools/speech-to-text.html" class="tool-item">
+                                <span>🎤 Speech-to-Text</span>
+                            </a>
+                            <a href="tools/text tools/url encoder & decoder.html" class="tool-item">
+                                <span>🔗 URL Encoder & Decoder</span>
+                            </a>
+                            <a href="tools/text tools/fancy text generator.html" class="tool-item">
+                                <span>✨ Fancy Text Generator</span>
+                            </a>
+                            <a href="tools/text tools/random text generator.html" class="tool-item">
+                                <span>🎲 Random Text Generator</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Developer Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">💻</div>
+                                <h3 class="mb-0 mt-2">Developer Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#devTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="devTools">
+                            <div class="card card-body">
+                                <div class="tool-list">
+                                    <a href="tools/developer tools/base64-encoder-decoder.html" class="tool-item">
+                                        <span>🔤 Base64 Encoder/Decoder</span>
+                                    </a>
+                                    <a href="tools/developer tools/json-formatter.html" class="tool-item">
+                                        <span>📝 JSON Formatter</span>
+                                    </a>
+                                    <a href="tools/developer tools/sql-formatter.html" class="tool-item">
+                                        <span>🗃️ SQL Formatter</span>
+                                    </a>
+                                    <a href="tools/developer tools/javascript-minifier.html" class="tool-item">
+                                        <span>📦 JS Minifier</span>
+                                    </a>
+                                    <a href="tools/developer tools/css-minifier.html" class="tool-item">
+                                        <span>🎨 CSS Minifier</span>
+                                    </a>
+                                    <a href="tools/developer tools/html-to-markdown-converter.html" class="tool-item">
+                                        <span>📄 HTML to Markdown</span>
+                                    </a>
+                                    <a href="tools/developer tools/markdown-to-html-converter.html" class="tool-item">
+                                        <span>📝 Markdown to HTML</span>
+                                    </a>
+                                    <a href="tools/developer tools/htaccess-redirect-generator.html" class="tool-item">
+                                        <span>🔒 .htaccess Generator</span>
+                                    </a>
+                                    <a href="tools/developer tools/ip-address-lookup.html" class="tool-item">
+                                        <span>🌐 IP Lookup</span>
+                                    </a>
+                                    <a href="tools/developer tools/color-code-picker.html" class="tool-item">
+                                        <span>🎨 Color Picker</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Math & Calculators Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">🔢</div>
+                                <h3 class="mb-0 mt-2">Math & Calculators</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#mathTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="mathTools">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/math & calculator tools/percentage-calculator.html" class="tool-item">
+                                <span>📊 Percentage Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/age-calculator.html" class="tool-item">
+                                <span>🎂 Age Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/bmi-calculator.html" class="tool-item">
+                                <span>⚖️ BMI Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/loan-emi-calculator.html" class="tool-item">
+                                <span>💵 Loan EMI Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/scientific-calculator.html" class="tool-item">
+                                <span>🔢 Scientific Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/discount-calculator.html" class="tool-item">
+                                <span>💰 Discount Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/currency-converter.html" class="tool-item">
+                                <span>💱 Currency Converter</span>
+                            </a>
+                            <a href="tools/math & calculator tools/time-zone-converter.html" class="tool-item">
+                                <span>🌍 Time Zone Converter</span>
+                            </a>
+                            <a href="tools/math & calculator tools/binary-to-decimal.html" class="tool-item">
+                                <span>🔢 Binary to Decimal Converter</span>
+                            </a>
+                            <a href="tools/math & calculator tools/tip-calculator.html" class="tool-item">
+                                <span>💰 Tip Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/rera-index.html" class="tool-item">
+                                <span>🏠 RERA Index Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/heloc-payment-calculator.html" class="tool-item">
+                                <span>🏦 HELOC Payment Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/asphalt-calculator.html" class="tool-item">
+                                <span>🛣️ Asphalt Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/laplace-transform-calculator.html" class="tool-item">
+                                <span>📐 Laplace Transform Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/actf-calculator.html" class="tool-item">
+                                <span>💹 ACTF Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/fuel-consumption-calculator.html" class="tool-item">
+                                <span>⛽ Fuel Consumption Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/inside-ir35-calculator.html" class="tool-item">
+                                <span>📊 Inside IR35 Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/novated-lease-calculator.html" class="tool-item">
+                                <span>🚗 Novated Lease Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/ftv-calculator.html" class="tool-item">
+                                <span>📈 FTV Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/land-loan-calculator.html" class="tool-item">
+                                <span>🏞️ Land Loan Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/zerodha-margin-calculator.html" class="tool-item">
+                                <span>📊 Zerodha Margin Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/end-of-service-calculator-uae.html" class="tool-item">
+                                <span>💼 End of Service Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/gratuity-calculator-dubai.html" class="tool-item">
+                                <span>🌇 Gratuity Calculator Dubai</span>
+                            </a>
+                            <a href="tools/math & calculator tools/gratuity-calculator-uae.html" class="tool-item">
+                                <span>💰 Gratuity Calculator</span>
+                            </a>
+                            <a href="tools/math & calculator tools/calculadora-interes-compuesto.html" class="tool-item">
+                                <span>💸 Compound Interest Calculator</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PDF Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">📄</div>
+                                <h3 class="mb-0 mt-2">PDF Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#pdfTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="pdfTools">
+                            <div class="card card-body">
+                                <div class="tool-list">
+                                    <!-- Organize PDF -->
+                                    <a href="tools/pdf tools/merge-pdf.html" class="tool-item">
+                                        <span>🔄 Merge PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/split-pdf.html" class="tool-item">
+                                        <span>✂️ Split PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/remove-pages-from-pdf.html" class="tool-item">
+                                        <span>🗑️ Remove Pages</span>
+                                    </a>
+                                    <a href="tools/pdf tools/extract-pages-from-pdf.html" class="tool-item">
+                                        <span>📋 Extract Pages</span>
+                                    </a>
+                                    <a href="tools/pdf tools/organize-pdf.html" class="tool-item">
+                                        <span>📁 Organize PDF</span>
+                                    </a>
+                                    
+                                    <!-- Optimize PDF -->
+                                    <a href="tools/pdf tools/compress-pdf.html" class="tool-item">
+                                        <span>🗜️ Compress PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/repair-pdf.html" class="tool-item">
+                                        <span>🔧 Repair PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/ocr-pdf.html" class="tool-item">
+                                        <span>👁️ OCR PDF</span>
+                                    </a>
+                                    
+                                    <!-- Edit PDF -->
+                                    <a href="tools/pdf tools/rotate-pdf.html" class="tool-item">
+                                        <span>🔄 Rotate PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/add-page-numbers-to-pdf.html" class="tool-item">
+                                        <span>🔢 Add Page Numbers</span>
+                                    </a>
+                                    <a href="tools/pdf tools/add-watermark-to-pdf.html" class="tool-item">
+                                        <span>💧 Add Watermark</span>
+                                    </a>
+                                    <a href="tools/pdf tools/edit-pdf.html" class="tool-item">
+                                        <span>✏️ Edit PDF</span>
+                                    </a>
+                                    
+                                    <!-- PDF Security -->
+                                    <a href="tools/pdf tools/unlock-pdf.html" class="tool-item">
+                                        <span>🔓 Unlock PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/protect-pdf.html" class="tool-item">
+                                        <span>🔒 Protect PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/sign-pdf.html" class="tool-item">
+                                        <span>✍️ Sign PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/redact-pdf.html" class="tool-item">
+                                        <span>⬛ Redact PDF</span>
+                                    </a>
+                                    <a href="tools/pdf tools/compare-pdf.html" class="tool-item">
+                                        <span>🔍 Compare PDF</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unit Converters Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">📏</div>
+                                <h3 class="mb-0 mt-2">Unit Converters</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#unitConverters">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="unitConverters">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/unit convertors tools/length converter.html" class="tool-item">
+                                <span>📏 Length Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/weight converter.html" class="tool-item">
+                                <span>⚖️ Weight Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/speed converter.html" class="tool-item">
+                                <span>🏃 Speed Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/temperature converter.html" class="tool-item">
+                                <span>🌡️ Temperature Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/volume converter.html" class="tool-item">
+                                <span>🧊 Volume Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/data storage converter.html" class="tool-item">
+                                <span>💾 Data Storage Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/energy converter.html" class="tool-item">
+                                <span>⚡ Energy Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/pressure converter.html" class="tool-item">
+                                <span>🌪️ Pressure Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/power converter.html" class="tool-item">
+                                <span>⚡ Power Converter</span>
+                            </a>
+                            <a href="tools/unit convertors tools/time converter.html" class="tool-item">
+                                <span>⏰ Time Converter</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">🔒</div>
+                                <h3 class="mb-0 mt-2">Security Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#securityTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="securityTools">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/security & encryption tools/md5 hash generator.html" class="tool-item">
+                                <span>🔑 MD5 Hash Generator</span>
+                            </a>
+                            <a href="tools/security & encryption tools/sha256 hash generator.html" class="tool-item">
+                                <span>🔐 SHA256 Hash Generator</span>
+                            </a>
+                            <a href="tools/security & encryption tools/password generator.html" class="tool-item">
+                                <span>🔒 Password Generator</span>
+                            </a>
+                            <a href="tools/security & encryption tools/random string generator.html" class="tool-item">
+                                <span>🎲 Random String Generator</span>
+                            </a>
+                            <a href="tools/security & encryption tools/url shortener.html" class="tool-item">
+                                <span>🔗 URL Shortener</span>
+                            </a>
+                            <a href="tools/security & encryption tools/ip geolocation finder.html" class="tool-item">
+                                <span>🌍 IP Geolocation Finder</span>
+                            </a>
+                            <a href="tools/security & encryption tools/ssl certificate checker.html" class="tool-item">
+                                <span>🛡️ SSL Certificate Checker</span>
+                            </a>
+                            <a href="tools/security & encryption tools/whois lookup.html" class="tool-item">
+                                <span>🔍 Whois Lookup</span>
+                            </a>
+                            <a href="tools/security & encryption tools/http headers checker.html" class="tool-item">
+                                <span>📋 HTTP Headers Checker</span>
+                            </a>
+                            <a href="tools/security & encryption tools/privacy policy generator.html" class="tool-item">
+                                <span>📜 Privacy Policy Generator</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">📱</div>
+                                <h3 class="mb-0 mt-2">Social Media Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#socialTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="socialTools">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/social media tools/all video downloader.html" class="tool-item">
+                                <span>📥 All Video Downloader</span>
+                            </a>
+                            <a href="tools/social media tools/youtube thumbnail downloader.html" class="tool-item">
+                                <span>📺 YouTube Thumbnail Downloader</span>
+                            </a>
+                            <a href="tools/social media tools/instagram photo downloader.html" class="tool-item">
+                                <span>📸 Instagram Photo Downloader</span>
+                            </a>
+                            <a href="tools/social media tools/twitter video downloader.html" class="tool-item">
+                                <span>🐦 Twitter Video Downloader</span>
+                            </a>
+                            <a href="tools/social media tools/facebook video downloader.html" class="tool-item">
+                                <span>👥 Facebook Video Downloader</span>
+                            </a>
+                            <a href="tools/social media tools/tiktok video downloader.html" class="tool-item">
+                                <span>🎵 TikTok Video Downloader</span>
+                            </a>
+                            <a href="tools/social media tools/youtube tags extractor.html" class="tool-item">
+                                <span>🏷️ YouTube Tags Extractor</span>
+                            </a>
+                            <a href="tools/social media tools/hashtag generator.html" class="tool-item">
+                                <span>#️⃣ Hashtag Generator</span>
+                            </a>
+                            <a href="tools/social media tools/social media post generator.html" class="tool-item">
+                                <span>✍️ Social Media Post Generator</span>
+                            </a>
+                            <a href="tools/social media tools/emoji keyboard.html" class="tool-item">
+                                <span>😊 Emoji Keyboard</span>
+                            </a>
+                            <a href="tools/social media tools/twitter character counter.html" class="tool-item">
+                                <span>🔤 Twitter Character Counter</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Miscellaneous Tools Category -->
+                <div class="col-lg-4 mb-4">
+                    <div class="main-category-card">
+                        <button class="btn btn-light w-100 text-start category-button" type="button">
+                            <div class="d-flex flex-column align-items-center text-center py-3">
+                                <div class="featured-icon">🎯</div>
+                                <h3 class="mb-0 mt-2">Miscellaneous Tools</h3>
+                            </div>
+                        </button>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary explore-btn" type="button" data-bs-toggle="collapse" data-bs-target="#miscTools">
+                                Explore Tools
+                            </button>
+                        </div>
+                        <div class="collapse" id="miscTools">
+                            <div class="card card-body">
+                        <div class="tool-list">
+                            <a href="tools/miscellaneous tools/barcode-generator.html" class="tool-item">
+                                <span>📊 Barcode Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/meme-generator.html" class="tool-item">
+                                <span>😂 Meme Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/resume-builder.html" class="tool-item">
+                                <span>📄 Resume Builder</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/invoice-generator.html" class="tool-item">
+                                <span>💰 Invoice Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/business-name-generator.html" class="tool-item">
+                                <span>💼 Business Name Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/lottery-number-generator.html" class="tool-item">
+                                <span>🎰 Lottery Number Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/flip-a-coin-simulator.html" class="tool-item">
+                                <span>🪙 Flip a Coin Simulator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/random-number-generator.html" class="tool-item">
+                                <span>🎲 Random Number Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/dice-roller-simulator.html" class="tool-item">
+                                <span>🎲 Dice Roller Simulator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/internet-speed-test.html" class="tool-item">
+                                <span>⚡ Internet Speed Test</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/daily-planner-creator.html" class="tool-item">
+                                <span>📅 Daily Planner Creator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/wedding-invitation-generator.html" class="tool-item">
+                                <span>💍 Wedding Invitation Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/story-plot-generator.html" class="tool-item">
+                                <span>📚 Story Plot Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/e-book-creator.html" class="tool-item">
+                                <span>📱 E-book Creator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/ai-chatbot-demo.html" class="tool-item">
+                                <span>🤖 AI Chatbot Demo</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/ip-address-tracker.html" class="tool-item">
+                                <span>🌐 IP Address Tracker</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/fake-address-generator.html" class="tool-item">
+                                <span>📍 Fake Address Generator</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/leap-year-checker.html" class="tool-item">
+                                <span>📅 Leap Year Checker</span>
+                            </a>
+                            <a href="tools/miscellaneous tools/password-generator.html" class="tool-item">
+                                <span>🔒 Password Generator</span>
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>ℹ️ About Us</h5>
+                    <p>Your trusted source for free online tools and utilities.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>🔗 Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">🏠 Home</a></li>
+                        <li><a href="about.html">ℹ️ About</a></li>
+                        <li><a href="contact.html">📧 Contact</a></li>
+                        <li><a href="privacy-policy.html">🔒 Privacy Policy</a></li>
+                        <li><a href="terms.html">📜 Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>🤝 Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Toolsnew. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+    <script>
+        // Color scheme switcher
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeSwitcher = document.getElementById('themeSwitcher');
+            const body = document.body;
+            let currentScheme = 1;
+            const totalSchemes = 5;
+
+            themeSwitcher.addEventListener('click', function() {
+                currentScheme = (currentScheme % totalSchemes) + 1;
+                body.className = `color-scheme-${currentScheme}`;
+            });
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "images"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "pages"
+		},
+		{
+			"path": "templates"
+		},
+		{
+			"path": "tools"
+		},
+		{
+			"path": "components"
+		},
+		{
+			"path": "css"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirect all tool requests to the router
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^tools/(.+)\.html$ router.php?tool=$1 [L,QSA]
+RewriteRule ^image-tools/(.+)\.html$ router.php?tool=$1&category=image [L,QSA]
+
+# Prevent direct access to template
+RewriteRule ^templates/tool-template\.html$ - [F,L] 

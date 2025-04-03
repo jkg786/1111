@@ -1,0 +1,13 @@
+{
+  "name": "toolsnew",
+  "version": "1.0.0",
+  "description": "Collection of free online tools",
+  "main": "tools/template-manager.js",
+  "scripts": {
+    "update-templates": "node tools/template-manager.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+} 
